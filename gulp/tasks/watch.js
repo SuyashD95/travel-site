@@ -5,6 +5,7 @@ var gulp = require('gulp'),
 gulp.task('watch', function () {
     browserSync.init({
         notify: false,
+        tunnel: "travel-site",
         server: {
             baseDir: "app"
         }
